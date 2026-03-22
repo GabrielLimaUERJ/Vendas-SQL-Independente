@@ -1,41 +1,79 @@
-# Análise de Vendas (CSV + Streamlit)
+# 🛒 Análise de Vendas - Projeto Interativo
 
-Aplicação em Python que permite análise de dados de vendas
-a partir do upload de arquivos CSV, com visualização interativa em Streamlit.
+Projeto de análise de dados de vendas utilizando Python, Pandas e SQL (DuckDB), com desenvolvimento de dashboard interativo em Streamlit para exploração de métricas comerciais.
 
-## Tecnologias
+---
 
-- Python
-- Streamlit
-- Pandas
+## 🎯 Objetivo
 
-## Funcionalidades
+Analisar o desempenho de vendas, permitindo:  
 
-- upload de arquivos CSV
-- análise automática dos dados
-- cálculo de métricas de receita e lucro
-- identificação de prejuízos
-- ranking de clientes e produtos
-- visualização interativa com gráficos
-- controle dinâmico de exibição (Top N)
+- Monitoramento de faturamento por período  
+- Identificação de produtos mais vendidos  
+- Comparação entre regiões, lojas ou categorias  
+- Análise de tendências e sazonalidade  
 
-## Análises realizadas
+---
 
-- Receita por categoria
-- Lucro por categoria
-- Produtos com prejuízo
-- Clientes com prejuízo
-- Top clientes
-- Produtos mais vendidos
-- Vendas por região
-- Ticket médio por cliente
-- Relação entre desconto e lucro
+## 🛠️ Tecnologias
 
-## Objetivo
+- Python  
+- Pandas  
+- DuckDB (SQL para análise eficiente em CSVs)  
+- Streamlit (dashboard interativo)  
+- Matplotlib / Seaborn (visualizações gráficas)  
 
-Permitir análise de dados de forma flexível e independente,
-sem necessidade de banco de dados, simulando cenários reais de exploração de dados.
+---
 
-## Como executar
+## 📚 Funcionalidades
 
-1. Instale as dependências:
+- Importação de dados a partir de arquivos CSV  
+- Limpeza e transformação automática dos dados  
+- Dashboard interativo com filtros por:  
+  - período  
+  - loja / região  
+  - categoria de produto  
+- Métricas principais:  
+  - faturamento total  
+  - quantidade vendida  
+  - ticket médio  
+  - produtos mais vendidos  
+- Visualizações de tendências ao longo do tempo  
+- Exportação de relatórios filtrados em CSV  
+
+---
+
+## 📈 Principais Métricas
+
+- Faturamento total por período  
+- Ticket médio por loja ou categoria  
+- Produtos mais vendidos e menos vendidos  
+- Comparação de vendas entre períodos ou regiões  
+- Evolução de vendas ao longo do tempo  
+
+---
+
+## 💡 Insights Possíveis
+
+- Identificação de sazonalidade em produtos específicos  
+- Lojas ou regiões com maior desempenho  
+- Produtos com baixa rotatividade que podem ser reavaliados  
+- Tendências de aumento ou queda em categorias  
+
+---
+
+## ⚠️ Limitações dos Dados
+
+- Depende da qualidade do CSV importado (valores nulos ou incorretos podem afetar métricas)  
+- Análise limitada aos campos presentes no arquivo  
+- Não há integração automática com sistemas ERP  
+
+---
+
+## ▶️ Como executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/GabrielLimaUERJ/Vendas-SQL-Independente.git
+cd Vendas-SQL-Independente
