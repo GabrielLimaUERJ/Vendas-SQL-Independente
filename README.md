@@ -77,3 +77,5 @@ Analisar o desempenho de vendas, permitindo:
 ```bash
 git clone https://github.com/GabrielLimaUERJ/Vendas-SQL-Independente.git
 cd Vendas-SQL-Independente
+pip install -r requirements.txt
+streamlit run app.py
